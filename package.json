@@ -1,14 +1,19 @@
 {
-  "name": "isomorphic-react-express-simple",
+  "name": "isomorphic-react-express-simplified",
   "version": "1.0.0",
-  "description": "",
+  "description": "Isomorphic Javascript with React and Express. Simplified version.",
+  "homepage": "https://kristin-baumann.com",
+  "author": "Kristin Baumann",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristinbaumann/isomorphic-react-express-simplified"
+  },
   "main": "index.js",
   "scripts": {
     "start": "cd dist && node server",
     "build": "webpack"
   },
-  "author": "",
-  "license": "",
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
