@@ -10,12 +10,12 @@ server.use('/assets', express.static('assets'));
 
 server.get('/', (req, res) => {
     const initialState = { 
-        name: 'you' 
+        name: 'Isomorphic' 
     };
     const appString = renderToString(<App {...initialState} />);
 
     res.send(template({
-        body: appString,
+        appString,
         initialState: JSON.stringify(initialState)
     }));
 });
