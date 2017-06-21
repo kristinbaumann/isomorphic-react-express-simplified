@@ -1,6 +1,5 @@
 export default ({ appString, initialState }) => {
-    return `<DOCTYPE html>
-        <html>
+    return `<html>
         <head>
             <script>window.__APP_INITIAL_STATE__ = ${initialState}</script>
         </head>
